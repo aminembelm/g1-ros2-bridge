@@ -1,0 +1,6 @@
+# ROS 2 Humble (rclpy, geometry_msgs, sensor_msgs, std_msgs, rosbag2_py) is installed with apt, not pip.
+numpy
+pyyaml
+mujoco==3.14.0
+torch==2.14.0   # CPU build is enough: pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
+matplotlib    # only for tools/analyze_bag.py
